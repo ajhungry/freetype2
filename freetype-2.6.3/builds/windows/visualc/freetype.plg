@@ -1,0 +1,241 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: freetype - Win32 Debug Singlethreaded--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\AIJIA~1.HOL\AppData\Local\Temp\RSP5B92.tmp" with contents
+[
+/MLd /Za /W4 /GX /Z7 /Od /I "..\..\..\include" /D "_DEBUG" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT2_BUILD_LIBRARY" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\autofit\autofit.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\bdf\bdf.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cff.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbase.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbbox.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbdf.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbitmap.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftfntfmt.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftfstype.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftgasp.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\cache\ftcache.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftglyph.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftgxval.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\gzip\ftgzip.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftinit.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\lzw\ftlzw.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftmm.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftotval.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftpfr.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftstroke.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftsynth.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftsystem.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\fttype1.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftwinfnt.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\pcf\pcf.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\pfr\pfr.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\psaux\psaux.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\pshinter\pshinter.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\psnames\psmodule.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\raster\raster.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfnt.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\smooth\smooth.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\truetype.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\type1\type1.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\cid\type1cid.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\type42\type42.c"
+"F:\工作目录\资源\FreeType\freetype-2.6.3\src\winfonts\winfnt.c"
+]
+Creating command line "cl.exe @C:\Users\AIJIA~1.HOL\AppData\Local\Temp\RSP5B92.tmp" 
+Creating temporary file "C:\Users\AIJIA~1.HOL\AppData\Local\Temp\RSP5BA3.tmp" with contents
+[
+/MLd /Ze /W4 /GX /Z7 /Od /I "..\..\..\include" /D "_DEBUG" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT2_BUILD_LIBRARY" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+"F:\工作目录\资源\FreeType\freetype-2.6.3\builds\windows\ftdebug.c"
+]
+Creating command line "cl.exe @C:\Users\AIJIA~1.HOL\AppData\Local\Temp\RSP5BA3.tmp" 
+Creating temporary file "C:\Users\AIJIA~1.HOL\AppData\Local\Temp\RSP5BA4.tmp" with contents
+[
+/nologo /out:"..\..\..\objs\freetype263ST_D.lib" 
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\autofit.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\bdf.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\cff.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftbase.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftbbox.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftbdf.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftbitmap.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftfntfmt.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftfstype.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftgasp.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftcache.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftdebug.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftglyph.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftgxval.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftgzip.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftinit.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftlzw.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftmm.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftotval.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftpfr.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftstroke.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftsynth.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftsystem.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\fttype1.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\ftwinfnt.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\pcf.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\pfr.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\psaux.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\pshinter.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\psmodule.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\raster.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\sfnt.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\smooth.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\truetype.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\type1.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\type1cid.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\type42.obj"
+"\工作目录\资源\FreeType\freetype-2.6.3\objs\debug_st\winfnt.obj"
+]
+Creating command line "link.exe -lib @C:\Users\AIJIA~1.HOL\AppData\Local\Temp\RSP5BA4.tmp"
+<h3>Output Window</h3>
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+
+cl /MLd /Za /W4 /GX /Z7 /Od /I "..\..\..\include" /D "_DEBUG" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT2_BUILD_LIBRARY" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\autofit\autofit.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\bdf\bdf.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cff.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbase.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbbox.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbdf.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbitmap.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftfntfmt.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftfstype.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftgasp.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\cache\ftcache.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftglyph.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftgxval.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\gzip\ftgzip.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftinit.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\lzw\ftlzw.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftmm.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftotval.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftpfr.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftstroke.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftsynth.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftsystem.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\fttype1.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftwinfnt.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\pcf\pcf.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\pfr\pfr.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\psaux\psaux.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\pshinter\pshinter.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\psnames\psmodule.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\raster\raster.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfnt.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\smooth\smooth.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\truetype.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\type1\type1.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\cid\type1cid.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\type42\type42.c"
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\src\winfonts\winfnt.c"
+
+autofit.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\autofit\afstyles.h(100) : warning C4001: nonstandard extension 'single line comment' was used
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\autofit\aflatin.c(2617) : warning C4244: 'initializing' : conversion from 'unsigned long ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\autofit\aflatin.c(2618) : warning C4244: 'initializing' : conversion from 'unsigned long ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\autofit\afloader.c(147) : warning C4244: 'initializing' : conversion from 'int ' to 'unsigned char ', possible loss of data
+bdf.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\bdf\bdfdrivr.c(115) : warning C4244: '=' : conversion from 'int ' to 'unsigned short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\bdf\bdfdrivr.c(155) : warning C4244: '=' : conversion from 'int ' to 'unsigned short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\bdf\bdfdrivr.c(169) : warning C4244: '=' : conversion from 'int ' to 'unsigned short ', possible loss of data
+cff.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cf2hints.c(1638) : warning C4244: '=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cf2intrp.c(347) : warning C4244: '=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cf2intrp.c(686) : warning C4244: 'initializing' : conversion from 'int ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cf2intrp.c(701) : warning C4244: '=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\cff\cf2intrp.c(1588) : warning C4244: 'initializing' : conversion from 'int ' to 'unsigned char ', possible loss of data
+ftbase.c
+ftbbox.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftbbox.c(510) : warning C4514: 'FT_MulFix_i386' : unreferenced inline function has been removed
+        ..\..\..\include\freetype/internal/ftcalc.h(152) : see declaration of 'FT_MulFix_i386'
+ftbdf.c
+ftbitmap.c
+ftfntfmt.c
+ftfstype.c
+ftgasp.c
+ftcache.c
+ftglyph.c
+ftgxval.c
+ftgzip.c
+ftinit.c
+ftlzw.c
+ftmm.c
+ftotval.c
+ftpfr.c
+ftstroke.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\base\ftstroke.c(756) : warning C4244: '+=' : conversion from 'int ' to 'short ', possible loss of data
+Generating Code...
+Compiling...
+ftsynth.c
+ftsystem.c
+fttype1.c
+ftwinfnt.c
+pcf.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\pcf\pcfread.c(1302) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\pcf\pcfread.c(1311) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\pcf\pcfread.c(1346) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\pcf\pcfread.c(1356) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+pfr.c
+psaux.c
+pshinter.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\pshinter\pshglob.c(536) : warning C4244: 'initializing' : conversion from 'int ' to 'short ', possible loss of data
+psmodule.c
+raster.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\raster\ftraster.c(1516) : warning C4244: 'initializing' : conversion from 'int ' to 'char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\raster\ftraster.c(1652) : warning C4244: 'initializing' : conversion from 'int ' to 'char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\raster\ftraster.c(1757) : warning C4244: '=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\raster\raster.c(28) : warning C4514: 'FT_MulFix_i386' : unreferenced inline function has been removed
+        ..\..\..\include\freetype/internal/ftcalc.h(152) : see declaration of 'FT_MulFix_i386'
+sfnt.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfobjs.c(1091) : warning C4244: '=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfobjs.c(1513) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfobjs.c(1525) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfobjs.c(1530) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfobjs.c(1532) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\sfnt\sfobjs.c(1547) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+smooth.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\smooth\smooth.c(28) : warning C4505: 'gray_dump_cells' : unreferenced local function has been removed
+        F:\工作目录\资源\FreeType\freetype-2.6.3\src\smooth\ftgrays.c(1511) : see declaration of 'gray_dump_cells'
+truetype.c
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttgload.c(710) : warning C4244: '=' : conversion from 'int ' to 'unsigned short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttgload.c(712) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttgload.c(1012) : warning C4244: '=' : conversion from 'int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttinterp.c(5374) : warning C4244: '=' : conversion from 'const int ' to 'short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttgxvar.c(182) : warning C4244: '+=' : conversion from 'int ' to 'unsigned short ', possible loss of data
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttgxvar.c(196) : warning C4244: '+=' : conversion from 'int ' to 'unsigned short ', possible loss of data
+type1.c
+type1cid.c
+type42.c
+winfnt.c
+Generating Code...
+F:\工作目录\资源\FreeType\freetype-2.6.3\src\truetype\ttgload.c(1831) : warning C4701: local variable 'outline' may be used without having been initialized
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+
+cl /MLd /Ze /W4 /GX /Z7 /Od /I "..\..\..\include" /D "_DEBUG" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT2_BUILD_LIBRARY" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+   "F:\工作目录\资源\FreeType\freetype-2.6.3\builds\windows\ftdebug.c"
+
+ftdebug.c
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\rpcasync.h(45) : warning C4115: '_RPC_ASYNC_STATE' : named type definition in parentheses
+Creating library...
+
+
+
+<h3>Results</h3>
+freetype263ST_D.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
